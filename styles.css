@@ -11,16 +11,79 @@ h1{
     color: midnightblue;
 }
 .p1{
-    margin: 50px;
+    text-align: center;
+    font-size: 18px;
 }
-ul{
+ul li{
+    list-style: inside;
+    text-align: center;
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: start;
-    list-style-position: inside;
+    font-size: 18px;
+    clear: both;
 }
-.figure1{
-    vertical-align: inherit;
+#oregon{
+    width: 400px;
+    height: 400px;
+    float: inline-start;
+    float: inline-end;
+    
 }
+
+p{
+    text-align: center;
+    padding: 10px;
+}
+figure{
+    clear: both;
+}
+figcaption{
+    font-family: serif;
+    vertical-align: bottom;;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.column {
+    display: inline-block;
+    flex: 100%;
+    padding: 5px;
+  }
+  
+#venue{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    height: 300px;
+}
+#Lizzo{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    height: 400px;
+
+}
+#allisons {
+    width: 400px;
+    height: 400px;
+}
+#taylars {
+    width: 1000px;
+    height: 300px;
+}
+.figure4{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+#rogueriver{
+    width: 300px;
+    height: 300px;
+    vertical-align: text-bottom;
+}
+
 h2{
     text-align: center;
     font-size: 30px;
